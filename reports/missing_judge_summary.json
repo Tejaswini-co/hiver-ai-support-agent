@@ -1,0 +1,10 @@
+{
+  "requested": 12,
+  "successful": 2,
+  "failed": 10,
+  "api_calls_made": 12,
+  "model": "openrouter/free",
+  "mean_score_all_dimensions": 2.0,
+  "results": "reports\\missing_judge_results.jsonl",
+  "human_agreement": "PENDING real human ratings"
+}

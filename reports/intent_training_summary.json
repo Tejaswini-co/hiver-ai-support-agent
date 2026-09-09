@@ -1,0 +1,237 @@
+{
+  "training_examples": 160,
+  "held_out_examples": 40,
+  "training_conversations": 158,
+  "held_out_conversations": 40,
+  "intents": [
+    "account_access",
+    "app_technical_issue",
+    "device_platform_compatibility",
+    "feature_or_policy_information",
+    "other_unclear",
+    "playback_audio_issue",
+    "playlist_library_downloads",
+    "subscription_plan_billing"
+  ],
+  "classifier": "word and bigram TF-IDF + Logistic Regression",
+  "accuracy": 0.6,
+  "macro_f1": 0.09375,
+  "per_intent": {
+    "account_access": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "app_technical_issue": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 7.0
+    },
+    "device_platform_compatibility": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "feature_or_policy_information": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "other_unclear": {
+      "precision": 0.6,
+      "recall": 1.0,
+      "f1-score": 0.75,
+      "support": 24.0
+    },
+    "playback_audio_issue": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "playlist_library_downloads": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "subscription_plan_billing": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.6,
+    "macro avg": {
+      "precision": 0.075,
+      "recall": 0.125,
+      "f1-score": 0.09375,
+      "support": 40.0
+    },
+    "weighted avg": {
+      "precision": 0.36,
+      "recall": 0.6,
+      "f1-score": 0.45,
+      "support": 40.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "account_access",
+    "app_technical_issue",
+    "device_platform_compatibility",
+    "feature_or_policy_information",
+    "other_unclear",
+    "playback_audio_issue",
+    "playlist_library_downloads",
+    "subscription_plan_billing"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      24,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "suspicious_rows": [
+    {
+      "row": 23,
+      "intent": "playback_audio_issue",
+      "signals": [
+        "playback_audio_issue",
+        "account_access",
+        "subscription_plan_billing"
+      ],
+      "text": "@SpotifyCares Actually I can't access any of my songs before I could choose what song to listen too also if I go on shuffle play and a song I dislike is on I have a certain amount of skips and before you say I need premium I already have premium so help \ud83d\ude30"
+    },
+    {
+      "row": 41,
+      "intent": "app_technical_issue",
+      "signals": [
+        "app_technical_issue",
+        "account_access",
+        "device_platform_compatibility"
+      ],
+      "text": "@SpotifyCares already tried. its just my account, plus not working on different browsers. when someone else logs in, their account does work...its so annoying haha"
+    },
+    {
+      "row": 60,
+      "intent": "app_technical_issue",
+      "signals": [
+        "playback_audio_issue",
+        "app_technical_issue",
+        "playlist_library_downloads",
+        "device_platform_compatibility"
+      ],
+      "text": "@SpotifyCares @115888 The only step I haven't tried yet is the \"manage devices\", all the rest I've done or is irrelevant. Would that possibly work? Cause I see two problems:\n-Individual songs over time deleting themselves\n-All download buttons reset and all music gone at once"
+    },
+    {
+      "row": 114,
+      "intent": "app_technical_issue",
+      "signals": [
+        "app_technical_issue",
+        "playlist_library_downloads",
+        "feature_or_policy_information"
+      ],
+      "text": "@SpotifyCares playlists are working normally. i updated spotify app this morning. any suggestions?"
+    },
+    {
+      "row": 124,
+      "intent": "playlist_library_downloads",
+      "signals": [
+        "playback_audio_issue",
+        "app_technical_issue",
+        "playlist_library_downloads"
+      ],
+      "text": "@SpotifyCares it happens nearly all the time no matter if I\u2019m connected to a speaker or not. Like today I put a playlist of 80 songs on shuffle and the first five songs were from the same album and each time I\u2019d reshuffle I\u2019d keep getting that same album even though I only had 13 songs from it"
+    },
+    {
+      "row": 156,
+      "intent": "feature_or_policy_information",
+      "signals": [
+        "playback_audio_issue",
+        "playlist_library_downloads",
+        "feature_or_policy_information"
+      ],
+      "text": "@SpotifyCares Said songs /albums are all free and easily available on every famous streaming service like Saavn, YouTube etc. Also on some mp3 songs websites"
+    }
+  ]
+}

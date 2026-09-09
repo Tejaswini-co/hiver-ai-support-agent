@@ -1,0 +1,14 @@
+example_id,human_score,judge_score,annotator_id,annotated_at,notes
+1532345,3,2,human_1,2026-09-09,"Somewhat relevant and grounded in a similar support case, but does not fully address the customer's situation."
+95843,2,2,human_1,2026-09-09,Generic escalation does not directly help with the customer's issue.
+2692983,5,3,human_1,2026-09-09,Appropriate friendly response to a simple thank-you message and consistent with historical support.
+717619,2,3,human_1,2026-09-09,Generic escalation does not address the student discount billing problem.
+1643023,5,3,human_1,2026-09-09,Natural and appropriate closing response for a customer saying the issue is fine and thanking support.
+1852506,1,1,human_1,2026-09-09,"Completely mismatched: customer says the problem is already solved, but response incorrectly escalates the issue."
+773111,2,2,human_1,2026-09-09,Does not answer the customer's direct question about available payment methods.
+1362120,1,2,human_1,2026-09-09,"Customer is praising support, but the response incorrectly escalates instead of acknowledging the positive message."
+89535,1,2,human_1,2026-09-09,Specific playback/audio problem is not addressed; response gives only a generic escalation.
+1298054,5,4,human_1,2026-09-09,Appropriate friendly closing after the customer confirms the solution worked.
+328661,2,2,human_1,2026-09-09,"Customer reports a temporary workaround and future action, but the response unnecessarily escalates."
+315129,2,,human_1,2026-09-09,Generic escalation is safe but does not meaningfully address the profile/music-move issue.
+1691143,1,,human_1,2026-09-09,Fails to answer the customer's direct question about account movement versus deletion.

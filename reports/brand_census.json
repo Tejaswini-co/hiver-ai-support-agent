@@ -1,0 +1,291 @@
+{
+  "input_files": [
+    "data\\raw\\twcs.csv"
+  ],
+  "rows_loaded": 2811774,
+  "columns": [
+    "tweet_id",
+    "author_id",
+    "inbound",
+    "created_at",
+    "text",
+    "response_tweet_id",
+    "in_response_to_tweet_id"
+  ],
+  "detected_columns": {
+    "text": [
+      "text"
+    ],
+    "brand": [],
+    "conversation_id": [],
+    "author_id": [
+      "author_id"
+    ],
+    "timestamp": [
+      "created_at"
+    ],
+    "id": [
+      "tweet_id"
+    ],
+    "inbound": [
+      "inbound"
+    ],
+    "response_id": [
+      "response_tweet_id",
+      "in_response_to_tweet_id"
+    ]
+  },
+  "candidate_brands": [
+    {
+      "value": "AmazonHelp",
+      "outbound_rows": 169840,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AppleSupport",
+      "outbound_rows": 106860,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "Uber_Support",
+      "outbound_rows": 56270,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "SpotifyCares",
+      "outbound_rows": 43265,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "Delta",
+      "outbound_rows": 42253,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "Tesco",
+      "outbound_rows": 38573,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AmericanAir",
+      "outbound_rows": 36764,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "TMobileHelp",
+      "outbound_rows": 34317,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "comcastcares",
+      "outbound_rows": 33031,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "British_Airways",
+      "outbound_rows": 29361,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "SouthwestAir",
+      "outbound_rows": 28977,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "VirginTrains",
+      "outbound_rows": 27817,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "Ask_Spectrum",
+      "outbound_rows": 25860,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "XboxSupport",
+      "outbound_rows": 24557,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "sprintcare",
+      "outbound_rows": 22381,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "hulu_support",
+      "outbound_rows": 21872,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "sainsburys",
+      "outbound_rows": 19466,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "GWRHelp",
+      "outbound_rows": 19364,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AskPlayStation",
+      "outbound_rows": 19098,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "ChipotleTweets",
+      "outbound_rows": 18749,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "VerizonSupport",
+      "outbound_rows": 17966,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "UPSHelp",
+      "outbound_rows": 17817,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "ATVIAssist",
+      "outbound_rows": 17650,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "O2",
+      "outbound_rows": 16212,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "Safaricom_Care",
+      "outbound_rows": 16077,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "idea_cares",
+      "outbound_rows": 15724,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AskTarget",
+      "outbound_rows": 13218,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AirAsiaSupport",
+      "outbound_rows": 12829,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "BofA_Help",
+      "outbound_rows": 12683,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "SW_Help",
+      "outbound_rows": 12231,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "ArgosHelpers",
+      "outbound_rows": 12174,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AskLyft",
+      "outbound_rows": 11809,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "marksandspencer",
+      "outbound_rows": 11504,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AskAmex",
+      "outbound_rows": 11358,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "MicrosoftHelps",
+      "outbound_rows": 11304,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AskPayPal",
+      "outbound_rows": 11298,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "Morrisons",
+      "outbound_rows": 10126,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AdobeCare",
+      "outbound_rows": 9917,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "airtel_care",
+      "outbound_rows": 9881,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AskeBay",
+      "outbound_rows": 9686,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AirbnbHelp",
+      "outbound_rows": 8875,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "ChaseSupport",
+      "outbound_rows": 8811,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "McDonalds",
+      "outbound_rows": 8478,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AldiUK",
+      "outbound_rows": 8114,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "JetBlue",
+      "outbound_rows": 8020,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "CoxHelp",
+      "outbound_rows": 7861,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "Ask_WellsFargo",
+      "outbound_rows": 7578,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AzureSupport",
+      "outbound_rows": 7565,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "AlaskaAir",
+      "outbound_rows": 7478,
+      "basis": "outbound_author_id"
+    },
+    {
+      "value": "HPSupport",
+      "outbound_rows": 7200,
+      "basis": "outbound_author_id"
+    }
+  ],
+  "brand_selection_note": "These are candidate support-account IDs; map IDs to brand names only when the source provides that mapping."
+}

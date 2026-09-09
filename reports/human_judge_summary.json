@@ -1,0 +1,14 @@
+{
+  "requested": 13,
+  "successful": 11,
+  "failed": 2,
+  "model": "historical strict-schema retry results; original run used openrouter/free",
+  "mean_score_all_dimensions": 2.3376623376623376,
+  "results": "reports\\human_judge_results.jsonl",
+  "human_agreement": {
+    "matched_examples": 11,
+    "excluded_missing_judge_scores": 2,
+    "exact_agreement": 0.36363636363636365,
+    "cohen_kappa": 0.15384615384615374
+  }
+}

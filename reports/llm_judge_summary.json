@@ -1,0 +1,10 @@
+{
+  "requested": 30,
+  "successful": 13,
+  "failed": 17,
+  "api_calls_made": 30,
+  "model": "openrouter/free",
+  "mean_score_all_dimensions": 2.032967032967033,
+  "results": "reports\\llm_judge_results.jsonl",
+  "human_agreement": "PENDING real human ratings"
+}

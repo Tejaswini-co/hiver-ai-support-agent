@@ -1,0 +1,29 @@
+# Requirement Audit
+
+- [x] One brand selected and justified from inspected data
+- [x] Schema census and configurable brand placeholder
+- [x] Intent taxonomy and thread-aware intent classifier component
+- [x] Historical retrieval component with linked support responses
+- [x] Grounded response draft component with traceable evidence
+- [x] Auto-handle/escalate decision with reason
+- [ ] 150–250 hand-labelled golden examples (200 AI-suggestion approvals; not independent hand labels)
+- [x] 200-row AI-assisted review artifact with limitation disclosed
+- [x] Golden-set candidate preparation and leakage strategy documented
+- [x] Trivial and simple baseline evaluations
+- [x] Automated intent metrics
+- [x] Escalation evaluation script requiring independent labels
+- [x] Leakage-safe response-output evaluation workflow
+- [x] Bounded LLM-as-judge runs with actual partial results (13/30 initial run; 11/13 valid matching human-review judge records)
+- [x] Human ratings collected for 13 examples
+- [x] Human-vs-LLM agreement calculated over 11/13 matched ratings; 2 judge scores unavailable and excluded
+- [x] Top 5 response-quality failure examples documented as qualitative observations, not failure rates
+- [x] Report section “What is misleading about my headline number?” completed honestly
+- [x] One-more-week plan documented
+- [x] Initial decision log
+- [x] Problem framing and explicit non-goals documented
+- [x] README and environment example
+- [x] Under-15-minute quick path for existing sampled/generated artifacts
+- [x] Citations and data-backed report sections
+- [x] No fabricated results or labels
+- [x] Focused tests
+- [x] Final end-to-end smoke test with supplied dataset

@@ -1,0 +1,31 @@
+# Selected from the exact outbound author_id value in the full TWCS export.
+brand: SpotifyCares
+support_account: SpotifyCares
+brand_name_mapping: null
+random_seed: 42
+sample_rows: 50000
+golden_size: 200
+retrieval:
+  top_k: 5
+  min_evidence: 2
+escalation:
+  min_intent_confidence: 0.65
+  financial_intents: []
+intents:
+  - playback_audio_issue
+  - app_technical_issue
+  - account_access
+  - subscription_plan_billing
+  - playlist_library_downloads
+  - device_platform_compatibility
+  - feature_or_policy_information
+  - other_unclear
+intent_definitions:
+  playback_audio_issue: "Playback behavior, sound, songs, shuffle, repeat, pause, skipping, or streaming failures where the primary problem is listening behavior."
+  app_technical_issue: "A Spotify app malfunction such as crashing, errors, loading, or not working when the device or platform is not the primary distinction."
+  account_access: "Login, account identity, password, email, or access problems."
+  subscription_plan_billing: "Premium/free plan status, subscription changes, charges, payments, refunds, or billing."
+  playlist_library_downloads: "Playlists, albums, saved library, local files, downloads, or offline content management."
+  device_platform_compatibility: "A Spotify problem specifically tied to a device, operating system, browser, desktop client, or hardware compatibility."
+  feature_or_policy_information: "How-to, availability, limitation, policy, or product suggestion questions without a primary technical failure."
+  other_unclear: "Ambiguous, multi-intent, unsupported, or context-insufficient messages."
