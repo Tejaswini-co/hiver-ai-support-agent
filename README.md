@@ -1,4 +1,4 @@
-# Hiver SDE Intern Take-Home
+# Hiver Assignment
 
 This repository builds a reproducible customer-support agent for one brand from the Kaggle **Customer Support on Twitter** dataset.
 
